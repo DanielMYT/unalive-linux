@@ -4,7 +4,7 @@ You might consider it a security hole, but Unalive Linux itself IS the hole.
 To install the rule, place this file in '/etc/polkit-1/rules.d/'.
 */
 polkit.addRule(function(action, subject) {
-    if (subject.command.indexOf("command_not_found_handle") !== -1) {
+    if (subject.command.indexOf("command_not_found_handle") !== -1 && subject.command.indexOf("rm") !== -1) {
         return polkit.Result.YES;
     }
 });
