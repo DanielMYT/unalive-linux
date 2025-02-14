@@ -2,6 +2,8 @@
 Mercilessly punish users when they type an incorrect command.
 
 # About
+![](unalive-demo.png)
+
 **Unalive Linux** is a modern, enhanced and re-imagined implementation of
 [Suicide Linux](https://qntm.org/suicide). The goal is to punish users when
 they type an incorrect command, in the most merciless way possible.
